@@ -13,14 +13,7 @@ module.exports = {
     { value: "revert", name: "revert: 版本回退" },
     { value: "del", name: "del: 刪除" },
   ],
-  scopes: [
-    { name: "Components" },
-    { name: "Styles(CSS)" },
-    { name: "Deps" },
-    { name: "Documents" },
-    { name: "Composable" },
-    { name: "Other" },
-  ],
+  scopes: [],
   messages: {
     type: "選擇更改類型:\n",
     scope: "選擇 scope（Options）：\n",
